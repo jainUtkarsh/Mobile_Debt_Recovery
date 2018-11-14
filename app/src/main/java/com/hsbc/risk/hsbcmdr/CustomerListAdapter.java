@@ -59,9 +59,9 @@ public class CustomerListAdapter extends RecyclerView.Adapter<CustomerListAdapte
 
         public MyViewHolder(View view){
             super(view);
-            this.customerName = (TextView)view.findViewById(R.id.customerName);
-            this.customerAddressLine1 = (TextView)view.findViewById(R.id.customerAddress);
-            this.customerAccount = (TextView)view.findViewById(R.id.customerAccount);
+            this.customerName = view.findViewById(R.id.customerName);
+            this.customerAddressLine1 = view.findViewById(R.id.customerAddress);
+            this.customerAccount = view.findViewById(R.id.customerAccount);
             this.customerPhone = view.findViewById(R.id.customerPhone);
         }
     }
